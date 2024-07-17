@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="trip-route-section.css" />
+  </head>
+  <body>
+    <div class="container">
+    <div class="trip-route">
+      <h3 class="main-title">Trip Route</h3>
+      <div class="map">
+        <form class="trip-route-form">
+          <div>
+            <h4 class="first-title">Trip Route <span class="trip-route-mark">!</span></h4>
+            <p>Draw Trip Route by Adding Start point,Way point and End point</p>
+          </div>
+          <div class="trip-info">
+            <div>
+              <label for="name">Trip name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Trip name"
+                class="trip-info-input"
+              />
+            </div>
+            <div>
+              <label for="sector">Sector</label>
+              <div class="select-box">
+                <select id="name" class="trip-info-input">
+                <option value="">Marina</option>
+                <option value="">Lucia</option>
+                <option value="">Camila</option>
+              </select>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="auto-generate-title">
+              <h4>Auto Generate <span class="trip-route-mark">!</span></h4>
+              <button class="generate-btn"><img src="./g3387.svg" alt="icon" height="17px" width="17px"/></button>
+            </div>
+            <div class="auto-generate-box">
+                <div class="box first-box">
+                    <p>Add Start Point<p>
+                    <button class="auto-generate-btn">+</button>
+                </div>
+                <div class="box second-box">
+                    <p>Add Way Point</p>
+                    <button class="auto-generate-btn">+</button>
+                </div>
+                <div class="box third-box">
+                    <p>Add End Point</p>
+                    <button class="auto-generate-btn">+</button>
+                </div>
+            </div>
+          </div>
+          <div class="form-btn">
+            <button class="alt-btn">Cancel</button>
+            <button class="main-btn">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
